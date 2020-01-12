@@ -9,7 +9,6 @@ class NumberChoices extends StatefulWidget {
 class _NumberChoicesState extends State<NumberChoices> {
   final Set<int> _chosenNumbers = Set<int>();
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,7 +31,6 @@ class _NumberChoicesState extends State<NumberChoices> {
             _chosenNumbers.add(pickedNumber);
           }
           if (_chosenNumbers.containsAll(winningNumList)) {
-//            final scaffold = Scaffold.of(context);
             scaffold.showSnackBar(
               SnackBar(
                 content: const Text(
@@ -42,7 +40,6 @@ class _NumberChoicesState extends State<NumberChoices> {
               ),
             );
           } else {
-//            final scaffold = Scaffold.of(context);
             scaffold.showSnackBar(
               SnackBar(
                 content: const Text(
@@ -78,7 +75,6 @@ class _NumberChoicesState extends State<NumberChoices> {
     });
   }
 
-//  Make valid tapping area bigger
   Widget _numberChoices(int winningNumLimit) {
     return GridView.count(
       crossAxisCount: 5,

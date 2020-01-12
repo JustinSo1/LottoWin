@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:lottery_app/home_page.dart';
+import 'package:lottery_app/screens/home_page.dart';
 import 'package:flutter/services.dart';
-import 'package:lottery_app/lottery_play.dart';
+import 'package:lottery_app/screens/lottery_play.dart';
+
 void main() {
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   runApp(MyApp());
@@ -23,4 +24,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-

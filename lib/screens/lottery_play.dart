@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lottery_app/number_choices.dart';
+import 'package:lottery_app/screens/number_choices.dart';
 import 'package:lottery_app/constants.dart';
 
 class LotteryNums extends StatefulWidget {
