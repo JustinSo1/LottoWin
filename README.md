@@ -1,4 +1,4 @@
-# lottery_app
+# Lottery Game App
 
 Lottery app is a mobile application developed using Flutter and Dart to demonstrate the difficulty of winning the jackpot in a draw-based lottery. Users must press on 7 numbers from 1 - 50 and then the chosen numbers will be compared to the winning numbers. If all 7 numbers match then the user wins the jackpot else they lose but, either way they are prompted to play again.
 
@@ -15,6 +15,8 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-### Images:
+## Images
+
+<img src="https://github.com/JustinSo1/LotteryApp/blob/master/images/icon.png" width="50">
 
 <img src="https://github.com/JustinSo1/LotteryApp/blob/master/images/Screenshot.png" width="500">
