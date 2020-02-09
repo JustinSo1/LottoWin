@@ -15,7 +15,7 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-For Android phones, go to releases and download then install the apk 
+For Android phones, go to the releases tab and download then install the apk 
 ## Images
 
 <img src="https://github.com/JustinSo1/LotteryApp/blob/master/images/icon.png" width="50">
